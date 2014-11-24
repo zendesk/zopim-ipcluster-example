@@ -1,0 +1,33 @@
+{
+  "name": "ipcluster-example",
+  "version": "0.0.1",
+  "description": "An example of IPCluster usage",
+  "main": "server-ipcluster.js",
+  "dependencies": {
+    "express": "~4.10.2",
+    "ws": "~0.5.0",
+    "ipcluster": "~0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zopim/ipcluster-example.git"
+  },
+  "keywords": [
+    "sticky",
+    "load",
+    "balance",
+    "iptables"
+  ],
+  "author": "Zopim",
+  "license": "Apache License, Version 2.0",
+  "readmeFilename": "README.md",
+  "gitHead": "b156606fc007e38e343aeb6064b32079d176f437",
+  "bugs": {
+    "url": "https://github.com/zopim/ipcluster-example/issues"
+  }
+}

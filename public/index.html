@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Tahoma, Geneva, sans-serif;
+			}
+    </style>
+  </head>
+  <body>
+		The time now is <span id="time"></span>
+  </body>
+	<script>
+		var host = window.document.location.host.replace(/:.*/, '');
+		var ws = new WebSocket('ws://' + host);
+
+		ws.onmessage = function (event) {
+			document.getElementById('time').textContent = event.data;
+		};
+	</script>
+</html>
