@@ -4,7 +4,7 @@
   "description": "An example of IPCluster usage",
   "main": "server-ipcluster.js",
   "dependencies": {
-    "express": "~4.10.2",
+    "express": "~4.18.2",
     "ws": "~0.5.0",
     "ipcluster": "~0.0.5"
   },
